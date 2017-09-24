@@ -1,0 +1,10 @@
+stone/Token.class
+stone/ParseException.class
+lexer/LexerRunner.class
+stone/CodeDialog.class
+stone/Lexer.class
+stone/StoneException.class
+stone/Token$1.class
+stone/Lexer$IdToken.class
+stone/Lexer$NumToken.class
+stone/Lexer$StrToken.class
