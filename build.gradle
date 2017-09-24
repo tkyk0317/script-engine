@@ -1,0 +1,23 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'application'
+
+mainClassName = 'lexer.LexerRunner'
+
+group = 'lexer'
+version = '1.0-SNAPSHOT'
+
+description = """lexer"""
+
+sourceCompatibility = 1.9
+targetCompatibility = 1.9
+
+
+
+repositories {
+
+     maven { url "http://repo.maven.apache.org/maven2" }
+}
+dependencies {
+    testCompile group: 'junit', name: 'junit', version:'3.8.1'
+}
